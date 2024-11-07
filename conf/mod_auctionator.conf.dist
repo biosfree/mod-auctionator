@@ -21,19 +21,19 @@ Auctionator.Enabled = 1
 Auctionator.CharacterId = 2
 
 # the character id
-Auctionator.CharacterGuid = 3
+Auctionator.CharacterGuid = 1
 
 ########################################
 # Seller configuration
 ########################################
 Auctionator.AllianceSeller.Enabled = 1
-Auctionator.AllianceSeller.MaxAuctions = 50000
+Auctionator.AllianceSeller.MaxAuctions = 5000
 
 Auctionator.HordeSeller.Enabled = 1
-Auctionator.HordeSeller.MaxAuctions = 50000
+Auctionator.HordeSeller.MaxAuctions = 5000
 
 Auctionator.NeutralSeller.Enabled = 1
-Auctionator.NeutralSeller.MaxAuctions = 50000
+Auctionator.NeutralSeller.MaxAuctions = 5000
 
 ########################################
 # Bidder/Buyer configuration
@@ -73,7 +73,7 @@ Auctionator.Seller.DefaultPrice = 10000000
 # what happens if it's not.
 # Default is 100 per house per cycle.
 ########################################
-Auctionator.Seller.AuctionsPerRun = 1000
+Auctionator.Seller.AuctionsPerRun = 100
 
 ########################################
 # Do we want to randomize the size of stacks?
@@ -81,7 +81,7 @@ Auctionator.Seller.AuctionsPerRun = 1000
 # 1 - Yes, make stack size somewhere between 1 and the max stack size.
 # 0 - No, make stack size always the max stack size for an item
 ########################################
-Auctionator.Seller.RandomizeStackSize = 1
+Auctionator.Seller.RandomizeStackSize = 0
 
 ########################################
 # How low do we want to (randomly) start bids at?
